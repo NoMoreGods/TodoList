@@ -1,0 +1,42 @@
+.todo {
+  width: 500px;
+  display: flex;
+  border: none;
+
+  margin-bottom: 5px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  word-wrap: break-word;
+}
+
+.button-wrapper {
+  display: flex;
+  align-items: center;
+  width: 90px;
+  justify-content: space-between;
+  background: transparent;
+  padding: 0;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  min-height: 40px;
+  width: 400px;
+  font-size: 20px;
+  list-style-type: none;
+  align-items: center;
+  padding: 5px;
+  word-break: break-all;
+  background: white;
+}
+.todo__item_completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
